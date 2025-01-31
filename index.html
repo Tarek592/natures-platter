@@ -1,75 +1,170 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NATURE'S PLATTER</title>
     <!-- DaisyUI cdn link -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- fortawesome cdn link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- Google font cdn link -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
     <style>
-        .sora-font {
-           font-family: "Sora", serif;
-        }
+      .sora-font {
+        font-family: "Sora", serif;
+      }
     </style>
-
-</head>
-<body class="sora-font">
-   <header class="bg-gradient-to-r from-[#FFFFFF] to-[#EFEBE3] ">
-    <!-- navbar start -->
-     <nav class="container mx-auto py-2 md:py-4 px-4  border-b-2 border-[#179800] lg:border-none  md:border-none">
-        <div class="navbar ">
-            <div class="navbar-start">
-              
-              <img src="image/logo-header.png" alt="">
-            </div>
-            <div class="navbar-center hidden lg:flex  text-[#111111] font-normal">
-              <ul class="menu menu-horizontal font-medium px-1">
-                <li><a>Product</a></li>
-                <li><a>Services</a></li>
-                <li><a>Contact us</a></li>
-              </ul>
-            </div>
-                <div class="navbar-end items-center ">
-                    <div class="gap-6 text-[#111111] hidden lg:flex items-center ">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                        <i class="fa-solid fa-cart-shopping"></i>
-                        <a class="btn btn-outline btn-success w-[117px]">Login</a>
-                        <a class="btn btn-success w-[146px] text-white bg-[#179800] text-xl">Register</a>
-                    </div>
-                     <div class="sm:hidden ">
-                        <i class="fa-solid fa-bars text-[#179800] text-2xl "></i>
-                     </div>
-                  </div>
+  </head>
+  <body class="sora-font">
+    <header class="bg-gradient-to-r from-[#FFFFFF] to-[#EFEBE3]">
+      <!-- navbar start -->
+      <nav
+        class="container mx-auto py-2 md:py-4 px-4 border-b-2 border-[#179800] lg:border-none md:border-none"
+      >
+        <div class="navbar">
+          <div class="navbar-start">
+            <img src="image/logo-header.png" alt="" />
           </div>
-     </nav>
-     <!-- navbar close -->
-     <!-- hero-banner section start -->
-      <section class="bg-gradient-to-r from-[#FFFFFF] to-[#EFEBE3] ">
-        <div class="max-h-[1189px] max-w-[1131px] mx-auto text-center pt-14 px-4" >
-            <div>
-                <h1 class="mb-4 md:mb-8 text-4xl md:text-5xl font-semibold text-[#111111]"><span class=" animate-pulse">Freshness</span> <span class="text-[#179800] ">You Can</span> <br> <span class="text-[#179800]">Count</span> On, Prices You’ll Love!</h1>
-                <p class="mb-4 md:mb-8 max-w-[799px] mx-auto text-[#111111] text-lg md:text-xl">Shop your daily essentials at unbeatable prices. From fresh produce to pantry  staples, we’ve got you covered every day!</p>
+          <div class="navbar-center hidden lg:flex text-[#111111] font-normal">
+            <ul class="menu menu-horizontal font-medium px-1">
+              <li><a>Product</a></li>
+              <li><a>Services</a></li>
+              <li><a>Contact us</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end items-center">
+            <div class="gap-6 text-[#111111] hidden lg:flex items-center">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <i class="fa-solid fa-cart-shopping"></i>
+              <a class="btn btn-outline btn-success w-[117px]">Login</a>
+              <a
+                class="btn btn-success w-[146px] text-white bg-[#179800] text-xl"
+                >Register</a
+              >
             </div>
-            <div class="">
-                <img class="w-full max-h[650px] md:w-3/4 md:mx-auto" src="image/hero-vegetables.png" alt="">
+            <div class="sm:hidden">
+              <i class="fa-solid fa-bars text-[#179800] text-2xl"></i>
             </div>
+          </div>
         </div>
-
+      </nav>
+      <!-- navbar close -->
+      <!-- hero-banner section start -->
+      <section class="bg-gradient-to-r from-[#FFFFFF] to-[#EFEBE3]">
+        <div
+          class="max-h-[1189px] max-w-[1131px] mx-auto text-center pt-14 px-4"
+        >
+          <div>
+            <h1
+              class="mb-4 md:mb-8 text-4xl md:text-5xl font-semibold text-[#111111]"
+            >
+              <span class="animate-pulse">Freshness</span>
+              <span class="text-[#179800]">You Can</span> <br />
+              <span class="text-[#179800]">Count</span> On, Prices You’ll Love!
+            </h1>
+            <p
+              class="mb-4 md:mb-8 max-w-[799px] mx-auto text-[#111111] text-lg md:text-xl"
+            >
+              Shop your daily essentials at unbeatable prices. From fresh
+              produce to pantry staples, we’ve got you covered every day!
+            </p>
+          </div>
+          <div class="">
+            <img
+              class="w-full max-h[650px] md:w-3/4 md:mx-auto"
+              src="image/hero-vegetables.png"
+              alt=""
+            />
+          </div>
+        </div>
       </section>
-<!-- hero-banner section close -->
-   </header>
-   <main>
+      <!-- hero-banner section close -->
+    </header>
+    <main>
+      <!-- service section start -->
+      <section class="container mx-auto mt-24 mb-24">
+        <h1 class="px-4 text-[#179800] font-semibold text-4xl">Services</h1>
+        <div
+          class="mt-12 grid gap-6 px-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-around text-center items-center"
+        >
+          <div class="bg-[#EFEBE3] h-[367px] rounded-lg p-5">
+            <div class="flex justify-center p-4">
+              <div class="bg-white rounded-full ">
+                <img
+                class=" p-4 h-full w-full mx-auto object-contain"
+                src="image/service.png"
+                alt=""
+              />
+              </div>
+            </div>
 
-   </main>
-   <footer>
+            <h3 class="text-[#111111] text-2xl font-semibold mt-3 mb-3">
+              24/7 Services
+            </h3>
+            <p class="text-[#111111] text-xl font-light max-w-[360px] mx-auto">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt
+            </p>
+          </div>
+          <div class="bg-[#EFEBE3] h-[367px] rounded-lg p-5">
+            <div class="flex justify-center p-4">
+              <div class="bg-white rounded-full ">
+                <img
+                class=" p-4 h-full w-full mx-auto object-contain"
+                src="image/delivery.png"
+                alt=""
+              />
+              </div>
+            </div>
 
-   </footer>
-</body>
+            <h3 class="text-[#111111] text-2xl font-semibold mt-3 mb-3">
+              Fast Delivery
+            </h3>
+            <p class="text-[#111111] text-xl font-light max-w-[360px] mx-auto">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt
+            </p>
+          </div>
+          <div class="bg-[#EFEBE3] h-[367px] rounded-lg p-5">
+            <div class="flex justify-center p-4">
+              <div class="bg-white rounded-full ">
+                <img
+                class=" p-4 h-full w-full mx-auto object-contain"
+                src="image/healthy.png"
+                alt=""
+              />
+              </div>
+            </div>
+
+            <h3 class="text-[#111111] text-2xl font-semibold mt-3 mb-3">
+              Healthy Products
+            </h3>
+            <p class="text-[#111111] text-xl font-light max-w-[360px] mx-auto">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- service section close -->
+    </main>
+    <footer></footer>
+  </body>
 </html>
